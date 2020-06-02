@@ -69,6 +69,7 @@ class Solution {
 
 
 877. 石子游戏
+~~~java
 class Solution {
     public boolean stoneGame(int[] piles) {
         int n = piles.length;
@@ -86,6 +87,7 @@ class Solution {
         return dp[0][n-1]>0;
     }
 }
+~~~
 
 
 1140. 石子游戏 II
